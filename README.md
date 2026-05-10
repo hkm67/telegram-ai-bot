@@ -97,6 +97,10 @@ By default the bot uses the local Ollama server first. If an Ollama call fails a
 4. `@botname summarise the discussion` — bot replies using the buffered context
 5. `/clear` — reset for a new session
 
+For a full walkthrough of how the bot behaves in groups — capture lifecycle,
+mention rules, photo handling, required Telegram privacy settings, and
+troubleshooting — see [docs/group-chat-mode.md](docs/group-chat-mode.md).
+
 ## Project structure
 
 ```
