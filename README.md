@@ -97,6 +97,8 @@ By default the bot uses the local Ollama server first. If an Ollama call fails a
 4. `@botname summarise the discussion` — bot replies using the buffered context
 5. `/clear` — reset for a new session
 
+For setup in groups/supergroups, capture behavior, photos, and how group mode differs from DMs, see **[docs/GROUP_CHAT.md](docs/GROUP_CHAT.md)**.
+
 ## Project structure
 
 ```
@@ -105,6 +107,8 @@ agent.py        — Agentic loop (tool use, LLM calls)
 config.py       — Config and backend switching
 history.py      — Message buffer management
 tools.py        — Tool definitions (Python runner, web search)
+docs/
+  GROUP_CHAT.md — Detailed group / supergroup usage
 backends/
   gemini.py     — Google Gemini backend
   ollama.py     — Ollama backend
